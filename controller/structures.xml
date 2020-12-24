@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE structures SYSTEM "../doc/structures.dtd">
+<structures>
+	<structure id="pciLabo_main" name="Learning PCI extension" level="15" group="main">
+		<description />
+		<sections>
+			<section id="pciLabo_main" name="Learning PCI extension" url="/pciLabo/PciLabo/index" />
+			<section id="pciLabo_other" name="Template" url="/pciLabo/PciLabo/templateExample" />
+		</sections>
+	</structure>
+</structures>

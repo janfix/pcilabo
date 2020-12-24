@@ -1,0 +1,38 @@
+{
+    "typeIdentifier": "fake",
+    "label": "fake_pci",
+    "short": "fakeOne",
+    "description": "fake for test extension",
+    "version": "1.0.0",
+    "author": "Janfix",
+    "email": "jean.philippe.riviere@gmail.com",
+    "tags": [
+        "faker"
+    ],
+    "response": {
+        "baseType": "string",
+        "cardinality": "single"
+    },
+    "runtime" : {
+        "hook" : "./runtime/fake.amd.js",
+        "libraries" : [
+            "IMSGlobal/jquery_2_1_1",
+            "./runtime/js/renderer.js"
+        ],
+        "stylesheets" : [
+            "./runtime/css/base.css",
+            "./runtime/css/fake.css"
+        ], "mediaFiles" : []
+    },
+            "creator" : {
+                "icon": "./creator/img/icon.svg",
+                "hook": "./pciCreator.js",
+                "libraries" : [
+                    "./creator/tpl/markup.tpl",
+                    "./creator/tpl/propertiesForm.tpl",
+                    "./creator/widget/Widget.js",
+                    "./creator/widget/states/Question.js",
+                    "./creator/widget/states/states.js"
+                ]
+            }
+        }

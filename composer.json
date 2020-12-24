@@ -1,0 +1,29 @@
+{
+
+
+    "description": "Search to build PCI Extension",
+    "type": "tao-extension",
+    "authors": [{
+        "name": "Janfix"
+    }],
+    "keywords": [
+        "tao",
+        "computer-based-assessment"
+    ],
+    "homepage": "http://www.wiquid.fr",
+    "license": [
+        "GPL-2.0"
+    ],
+    "extra": {
+        "tao-extension-name": "pciLabo"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "janfix/pciLabo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "janfix\\pciLabo\\": ""
+        }
+    }
+}
