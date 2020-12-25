@@ -1,6 +1,6 @@
 {
 
-
+    "name": "janfix/pcilabo",
     "description": "Search to build PCI Extension",
     "type": "tao-extension",
     "authors": [{
@@ -19,7 +19,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "janfix/pciLabo": "dev-master"
+        "janfix/pcilabo": "dev-master"
     },
     "autoload": {
         "psr-4": {
