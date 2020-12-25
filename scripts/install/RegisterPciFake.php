@@ -21,7 +21,6 @@
 namespace oat\pciLabo\scripts\install;
 
 use oat\taoQtiItem\model\portableElement\action\RegisterPortableElement;
-
 class RegisterPciFake extends RegisterPortableElement
 {
     protected function getSourceDirectory(){

@@ -19,11 +19,11 @@
  *
  */
 
-namespace oat\pciSamples\scripts\update;
+namespace oat\pciLabo\scripts\update;
 
-use oat\pciSamples\scripts\install\RegisterPciTextReader;
-use oat\qtiItemPci\model\IMSPciModel;
-use oat\taoQtiItem\model\HookRegistry;
+use oat\pciLabo\scripts\install\RegisterPciFake;
+/* use oat\qtiItemPci\model\IMSPciModel;
+use oat\taoQtiItem\model\HookRegistry; */
 
 class Updater extends \common_ext_ExtensionUpdater
 {
@@ -36,9 +36,7 @@ class Updater extends \common_ext_ExtensionUpdater
     public function update($initialVersion)
     {
 
-        if ($this->isBetween('0', '3.0.0')) {
-            $this->setVersion('1.0.0');
-        }
+       $this->setVersion('1.0.0');
 
 
     }
